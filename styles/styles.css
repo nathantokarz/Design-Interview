@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  

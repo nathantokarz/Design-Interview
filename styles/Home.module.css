@@ -1,0 +1,169 @@
+
+.divcontainer {
+  width: 1300px;
+  margin-left: 0;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.boxcontainer {
+  width: 1300px;
+  height: 1168px;
+  background-color: black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.achievementbox {
+  width: 905px;
+  height: 520px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.horizontalcardsbox {
+  width: 905px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontalcard {
+  width: 292px;
+  display: flex;
+  flex-direction: column;
+  height: 227px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  padding: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.steakicon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontalcardtext {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  height: 90.75px;
+  margin: 15px
+}
+
+.pointsperdollar {
+  display: flex;
+  justify-content: space-between;
+  width: 262px;
+  margin-top: 60px;
+}
+
+.tablecontainer {
+  width: 100%;
+  height: 540px;
+  border-radius: 8px;
+}
+
+.headermaincell{
+  text-align: left;
+  align-items: center;
+  height: 40px;
+  width: 172px;
+}
+
+.firstColumn {
+  text-align: center;
+  align-items: center;
+  width: 45px;
+  height: 40px
+}
+
+.headerlastcolumn {
+  text-align: right;
+  align-items: center;
+  width: 172px;
+  height: 40px
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 905px;
+}
+
+.bodyheadermaincell, .bodyfirstcolumn, .bodycell {
+  padding: 8px; /* Adds padding for better spacing */
+  border-top: 1px solid grey; /* Adds border to cells for better visibility */
+}
+
+.bodyheadermaincell{
+  text-align: left;
+  align-items: center;
+  height: 40px;
+  width: 172px;
+}
+
+.bodyfirstColumn {
+  text-align: center;
+  align-items: center;
+  width: 45px;
+  height: 40px
+}
+
+.bodyheaderlastcolumn {
+  text-align: right;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  align-items: center;
+  width: 172px;
+  height: 40px
+}
+
+.tableRow {
+  height: 40px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.verticalcards {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 520px
+}
+
+.verticalcard1 {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 115px;
+  border: 1px solid grey;
+  border-radius: 8px
+}
+
+.card1section1 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  height: 57.5px;
+  width: 330px;
+  border-bottom: 1px solid grey
+}
+
+.card1section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 57.5px;
+  width: 330px;
+}
